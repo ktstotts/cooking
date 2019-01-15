@@ -1,0 +1,30 @@
+header {
+
+
+
+}
+p {
+  text-align: center;
+  color: lightgrey;
+  font-size: 50px;
+  margin: -1em;
+  font-family: system-ui;
+}
+ul {
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  word-spacing: 5em;
+
+}
+a {
+  color: grey;
+  outline: none;
+}
+a:visited {
+  color: #d96629; 
+}
+
+a:hover {
+  color: #d96629;
+}
