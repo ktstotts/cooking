@@ -1,8 +1,9 @@
-header {
-  background: radial-gradient(white, lightgrey);
+/* styling navigation list */
+.main-header {
   margin: 0px 0px -40px -100px;
 }
 
+/* styling links */
 a:link {
   color: grey;
   outline: none;
@@ -14,7 +15,7 @@ a:visited {
 a:hover {
   color: #d96629;
 }
-
+ /* styling navigation words*/
 ul {
   font-size: 15px;
   text-align: center;
@@ -24,11 +25,51 @@ ul {
   font-family: system-ui;
 
 }
+/**/
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
-/*body starts below*/
+/*body starts below, styling main recipe*/
 
 article {
   margin: 200px 0px 0px 0px;
   text-align: center;
   font-family:system-ui;
+}
+
+
+/*styling footer*/
+.main-footer {
+  background-color: lightgrey;
+  padding: 2em 0;
+  text-align: center;
+
+}
+
+/*formating columns for recipe and about me*/
+.col {
+  display: inline-block;
+  width: 50%;
+  margin-right: -4px;
+  vertical-align: top;
+
+
+
+}
+
+/*sticky footer*/
+.wrap {
+  min-height: 100vh;
+}
+
+/*media queries*/
+@media (min-width: 760px) {
+  .container {
+
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
