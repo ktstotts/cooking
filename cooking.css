@@ -1,11 +1,13 @@
-/* styling navigation list */
-.main-header {
-  margin: 0px 0px -40px -100px;
+* {
+  box-sizing: border-box;
 }
+
+/* styling navigation list */
+
 
 /* styling links */
 a:link {
-  color: grey;
+  color: white;
   outline: none;
 }
 a:visited {
@@ -18,29 +20,54 @@ a:hover {
  /* styling navigation words*/
 ul {
   font-size: 15px;
-  text-align: center;
+  text-align:;
   word-spacing: 5em;
-  margin: -53px 0px 10px 550px;
+  margin: ;
   color: lightgrey;
   font-family: system-ui;
 
 }
 /**/
-.container {
-  padding-left: 1em;
-  padding-right: 1em;
-}
+
 
 /*body starts below, styling main recipe*/
 
 article {
-  margin: 200px 0px 0px 0px;
+  margin: 150px 0px 0px 0px;
   text-align: center;
-  font-family:system-ui;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  padding-top: 1em;
 }
 
 
-/*styling footer*/
+
+/*styling body links*/
+
+.link {
+color: salmon;
+}
+
+
+/*styling footer and header*/
+
+.blogname {
+
+  font-family:fantasy;
+  font-size: 40px;
+  margin: 0 10px 0 0 auto;
+  background-color: white;
+  display: inline-block;
+}
+.main-header {
+  background: salmon;
+  padding: ;
+}
+
+
+
+
 .main-footer {
   background-color: lightgrey;
   padding: 2em 0;
@@ -65,11 +92,46 @@ article {
 }
 
 /*media queries*/
-@media (min-width: 760px) {
+@media (min-width: 769px) {
   .container {
 
-    width: 70%;
+    width: 80%;
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+
+
+  }
+
+  .main-nav,
+  .main-nav li {
+    display: inline;
+
+  }
+  .main-nav li {
+    margin-right: 0;
+
+  }
+  .blue {
+    width: 300px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-color: grey;
+
+
+  }
+  .container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .main-header {
+    position: fixed;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    width: 100%;
+
   }
 }
