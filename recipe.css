@@ -1,0 +1,48 @@
+/*main header styling*/
+.main-header {
+  background-color: salmon;
+}
+
+.blogname {
+  font-family:fantasy;
+  font-size: 40px;
+  margin: 0 10px 0 0 auto;
+  background-color: white;
+  display: inline-block;
+}
+
+
+
+
+
+/*media querie*/
+@media (min-width: 796px) {
+
+  .container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+  }
+
+
+
+
+  .rosemary {
+    width: 300px;
+    border-style: solid;
+    border-color: grey;
+  }
+
+  .soup {
+    width: 300px;
+    border-style: solid;
+    border-color: grey;
+  }
+
+  .pie {
+    width: 300px;
+    border-style: solid;
+    border-color: grey;
+  }
+  ]
